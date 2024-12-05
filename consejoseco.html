@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoChallenge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #2e4631;
+            background-color: #f5fff0; 
+            line-height: 1.6;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #34a853; 
+            padding: 1.2rem 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 0 1.5rem;
+            font-size: 1.1rem; 
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #f0fdf4; 
+            border-bottom: 2px solid #f0fdf4;
+        }
+        header {
+            background: url('ECOECO1.png') no-repeat center center;
+            background-size: cover;
+            height: 650px; 
+            position: relative;
+            margin-top: 0; 
+        }
+        main {
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 30px; 
+        }
+        main h2 {
+            color: #34a853;
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        main p {
+            font-size: 1.2rem;
+            margin: 1rem auto;
+            max-width: 700px;
+        }
+        .contacto {
+            background: #f0fdf4;
+            padding: 2rem;
+            text-align: center;
+        }
+        .contacto button {
+            padding: 0.8rem 1.5rem;
+            background: #34a853;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .contacto button:hover {
+            background: #2d7f43;
+            transform: scale(1.05);
+        }
+       
+        footer {
+            background: #2d7f43; 
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <img src="Por.png" width="50" height="50">
+    <nav>
+     
+        <a href="consejoseco.html">Inicio</a>
+        <a href="consejosinterectivo.html">Consejos</a>
+        
+    </nav>
+    <header></header>
+    <main>
+        <h2>Quiénes Somos</h2>
+        <p>
+            En EcoChallenge, creemos en el poder de las pequeñas acciones para generar grandes cambios. Nuestra misión es promover el reciclaje y la sostenibilidad, educando a las personas sobre cómo cuidar nuestro planeta de manera efectiva y divertida.
+        </p>
+        <h2>Misión</h2>
+        <p>
+            Nuestra misión es inspirar a las personas a adoptar hábitos responsables con el medio ambiente, brindándoles las herramientas y conocimientos necesarios para proteger la naturaleza y construir un futuro más verde.
+        </p>
+    </main>
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes preguntas o quieres colaborar con nosotros? ¡Contáctanos!</p>
+        <button onclick="window.location.href='mailto:ecochallenge@dominio.com';">Enviar un mensaje</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 EcoChallenge. Unidos por un planeta más limpio.</p>
+    </footer>
+</body>
+</html>
